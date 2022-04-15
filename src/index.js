@@ -6,6 +6,11 @@ import { Routes, DefaultRoute } from './view/routes';
 
 /* Include global app styles here, so that it will over ride component's css styles*/
 import './app.scss';
+import './_base.scss';
+import './_color_variables.scss';
+import './_functions.scss';
+import './_mixins.scss';
+import './_utilities.scss';
 
 if (module.hot) {
     module.hot.accept();
